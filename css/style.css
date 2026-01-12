@@ -1,0 +1,131 @@
+ /* Small custom styles to give a premium perfume-shop vibe */
+    :root{
+      --accent:#A47C7C;
+      --muted:#6c6c6c;
+      --bg:#faf7f6;
+    }
+    body{ 
+        background:var(--bg); 
+        color:#222; 
+    }
+    .topbar{ 
+        background:#eb0404; 
+        font-size:.95rem;
+         padding:.35rem 0; 
+        }
+    .navbar-brand{
+         font-weight:700; 
+         letter-spacing:.4px; 
+        }
+    /* HERO SECTION */
+    /* Cart Drawer Styling */
+.cart-drawer {
+  border-left: 3px solid #d4af37;
+  background: #fffaf5;
+}
+#cartItems div:hover {
+  background:#fff1dd;
+  border-radius:8px;
+  transition:.3s;
+}
+#checkoutBtn {
+  background: #d4af37;
+  border:none;
+  color:#000;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+#checkoutBtn:hover {
+  background:#b8932c;
+  color:#fff;
+  box-shadow:0 0 10px rgba(212,175,55,.5);
+}
+
+.hero {
+  background: linear-gradient(135deg, #000000, #2b1b10);
+  color: #fff;
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-title {
+  color: #d4af37; /* metallic gold */
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #b8932c;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+}
+
+.btn-outline-light {
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Image styling */
+.hero-img-wrapper {
+  border: 3px solid #d4af37;
+  border-radius: 20px;
+  padding: 6px;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.hero-img {
+  border-radius: 15px;
+  max-height: 320px;
+  object-fit: cover;
+}
+/* store layout */
+.category-link {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.category-link:hover {
+  color: #d4af37;
+  text-decoration: underline;
+}
+
+#productGrid .product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+#productGrid .product-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.product-card img {
+  border-bottom: 1px solid #eee;
+  max-height: 180px;
+  object-fit: cover;
+}
+.product-card .price {
+  color: #d4af37;
+  font-weight: 700;
+}
